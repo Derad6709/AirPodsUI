@@ -9,4 +9,5 @@
     
      steps:
        - checkout
+       - run: dotnet add package Microsoft.Win32.Registry --version 5.0.0
        - run: dotnet build
